@@ -1,6 +1,10 @@
-  #sortable1, #sortable2, #sortable3 {
+body{
+    background-color: black;
+}  
+
+#table1, #table2, #table3{
     border: 1px solid #eee;
-    width: 142px;
+    width: 200px;
     min-height: 20px;
     list-style-type: none;
     margin: 0;
@@ -8,11 +12,12 @@
     float: left;
     margin-right: 10px;
   }
-  #sortable1 li, #sortable2 li, #sortable3 li {
+  #table1 li, #table2 li, #table3 li{
     margin: 0 5px 5px 5px;
     padding: 5px;
     font-size: 1.2em;
-    width: 120px;
+    width: 180px;
+    height: 100px;
   }
 
 .boks{
@@ -25,4 +30,31 @@
 
 .boks3{
     background-color: yellow;
+}
+
+.boks4{
+    background-color: pink;
+}
+
+input{
+    background-color: blue;
+    border: 2px solid black;
+}
+
+#tables{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+#table1{
+    border: 2px solid black;
+}
+
+#table2{
+    border: 2px solid black;
+}
+
+#table3{
+    border: 2px solid black;
 }
